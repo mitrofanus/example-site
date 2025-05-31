@@ -544,3 +544,37 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .btn {
+        padding: 10px 16px;
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .carousel-section {
+        padding-top: 20px; /* Добавляем отступ сверху у карусели */
+    }
+
+    .carousel-item img {
+        margin-top: 10px; /* Немного опускаем изображение внутри */
+        max-height: 250px;
+    }
+
+    .product-info {
+        padding: 16px;
+    }
+
+    .close-popup,
+    .close-cart {
+        top: 10px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 2rem;
+    }
+}
+
