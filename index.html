@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример онлайн магазина</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="cart-icon" id="cartBtn">
+        <img src="/Images/cart.jpg.png" alt="Корзина">
+      </div>
+      
+      <!-- Попап корзины -->
+      <div class="cart-popup-overlay" id="cartPopup">
+        <div class="cart-popup">
+          <div class="cart-popup-header">
+            <h2 id="cart-title">Ваша корзина</h2>
+            <span class="close-cart">&times;</span>
+            <div id="cartItems"></div>
+          <div id="cartTotal"></div>
+            
+          </div>
+          
+          
+      
+          <div class="cart-actions">
+            <button class="btn btn-primary">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+</head>
+<body>  
+    <div class="titul">
+        <h1>Пример онлайн магазина</h1>
+        <p>Нажмите на товар для просмотра деталей</p>
+    </div>
+    
+    <div class="photo-gallery">
+        <div class="photo-item" data-product="0">
+            <img src="/Images/15p.jpg" alt="iPhone 15 Pro">
+            <div class="item-title">iPhone 15 Pro</div>
+        </div>
+        
+        <div class="photo-item" data-product="1">
+            <img src="/Images/mac1.png" alt="MacBook Air M2">
+            <div class="item-title">MacBook Air M2</div>
+        </div>
+        
+        <div class="photo-item" data-product="2">
+            <img src="/Images/pods1.jpg" alt="AirPods Pro">
+            <div class="item-title">AirPods Pro</div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="photo-item" data-product="3">
+            <img src="/Images/ipad1.jpg" alt="iPad Pro">
+            <div class="item-title">iPad Pro</div>
+        </div>
+        
+        <div class="photo-item" data-product="4">
+            <img src="/Images/watch1.jpg" alt="Apple Watch">
+            <div class="item-title">Apple Watch</div>
+        </div>
+        
+        <div class="photo-item" data-product="5">
+            <img src="/Images/imac1.jpg" alt="iMac 24">
+            <div class="item-title">iMac 24"</div>
+        </div>
+        
+        <div class="photo-item" data-product="6">
+            <img src="/Images/av1.png" alt="iMac 24">
+            <div class="item-title">Apple Vision Pro</div>
+        </div>
+
+        <div class="photo-item" data-product="7">
+            <img src="/Images/pod1.jpg" alt="iMac 24">
+            <div class="item-title">Homepod 2</div>
+        </div>
+
+        <div class="photo-item" data-product="8">
+            <img src="/Images/mk1.jpg" alt="iMac 24">
+            <div class="item-title">Magic Keyboard</div>
+        </div>
+
+    <div class="popup-overlay">
+        <div class="close-popup">&times;</div>
+        
+        <div class="popup-content">
+            <div class="carousel-section">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Слайды будут добавляться динамически -->
+                    </div>
+                    
+                    <button class="carousel-button prev">&#10094;</button>
+                    <button class="carousel-button next">&#10095;</button>
+                </div>
+                
+                <div class="thumbnail-container">
+                    <!-- Миниатюры будут добавляться динамически -->
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h2 class="product-title"></h2>
+                <div class="product-price"></div>
+                <div class="product-description"></div>
+                
+                <div class="product-features">
+                    <h4>Особенности:</h4>
+                    <ul class="features-list">
+                        <!-- Особенности будут добавляться динамически -->
+                    </ul>
+                </div>
+                
+                <div class="product-actions">
+                    
+                    <button class="btn btn-secondary">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
