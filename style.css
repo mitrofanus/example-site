@@ -583,11 +583,14 @@ body {
         min-width: unset;
         flex: 1;
         min-height: 300px;
-        max-height: 50vh; /* Ограничиваем высоту карусели */
+        max-height: 45vh; /* Ограничиваем высоту карусели, оставляя место для миниатюр */
+        display: flex;
+        flex-direction: column;
     }
     
     .carousel-container {
-        min-height: 250px;
+        min-height: 200px;
+        flex: 1;
     }
     
     .product-info {
@@ -599,7 +602,11 @@ body {
     
     .thumbnail-container {
         justify-content: flex-start;
-        padding: 10px 15px;
+        padding: 15px;
+        flex-shrink: 0; /* Предотвращаем сжатие контейнера миниатюр */
+        min-height: 80px; /* Гарантируем место для миниатюр */
+        background: white;
+        border-top: 1px solid #eee;
     }
     
     .thumbnail {
@@ -616,9 +623,11 @@ body {
     }
     
     .cart-icon {
-        top: 15px;
-        right: 15px;
-        padding: 10px;
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+        padding: 12px;
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
     }
     
     .cart-icon img {
@@ -683,7 +692,16 @@ body {
     
     .carousel-section {
         min-height: 250px;
-        max-height: 45vh;
+        max-height: 40vh; /* Уменьшаем еще больше для очень маленьких экранов */
+    }
+    
+    .carousel-container {
+        min-height: 180px;
+    }
+    
+    .thumbnail-container {
+        padding: 12px 15px;
+        min-height: 70px;
     }
     
     .product-info {
