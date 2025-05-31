@@ -12,10 +12,10 @@ const products = [
             "USB-C разъем"
         ],
         images: [
-            "Images/15p.jpg",
-            "Images/15p2.jpg",
-            "Images/15p3.jpg",
-            "Images/15p4.jpg"
+            "/Images/15p.jpg",
+            "/Images/15p2.jpg",
+            "/Images/15p3.jpg",
+            "/Images/15p4.jpg"
         ]
     },
     {
@@ -31,9 +31,9 @@ const products = [
             "Вес всего 1.24 кг"
         ],
         images: [
-            "Images/mac1.png",
-            "Images/mac2.png",
-            "Images/mac3.png",
+            "/Images/mac1.png",
+            "/Images/mac2.png",
+            "/Images/mac3.png",
         ]
     },
     {
@@ -49,9 +49,9 @@ const products = [
             "Устойчивость к поту и влаге IPX4"
         ],
         images: [
-            "Images/pods1.jpg",
-            "Images/pods2.jpg",
-            "Images/pods3.jpg"
+            "/Images/pods1.jpg",
+            "/Images/pods2.jpg",
+            "/Images/pods3.jpg"
         ]
     },
     {
@@ -67,9 +67,9 @@ const products = [
             "Thunderbolt / USB 4"
         ],
         images: [
-            "Images/ipad1.jpg",
-            "Images/ipad2.jpg",
-            "Images/ipad3.jpg",
+            "/Images/ipad1.jpg",
+            "/Images/ipad2.jpg",
+            "/Images/ipad3.jpg",
         ]
     },
     {
@@ -85,9 +85,9 @@ const products = [
             "Водонепроницаемость до 50 м"
         ],
         images: [
-            "Images/watch1.jpg",
-            "Images/watch2.jpg",
-            "Images/watch3.jpg"
+            "/Images/watch1.jpg",
+            "/Images/watch2.jpg",
+            "/Images/watch3.jpg"
         ]
     },
     {
@@ -103,10 +103,10 @@ const products = [
             "7 ярких цветов"
         ],
         images: [
-            "Images/imac1.jpg",
-            "Images/imac2.jpg",
-            "Images/imac3.jpg",
-            "Images/imac4.jpg"
+            "/Images/imac1.jpg",
+            "/Images/imac2.jpg",
+            "/Images/imac3.jpg",
+            "/Images/imac4.jpg"
         ]
     },
     {
@@ -121,9 +121,9 @@ const products = [
             " До 2 часов автономной работы (или весь день с внешним аккумулятором)"
         ],
         images: [
-            "Images/av1.png",
-            "Images/av2.png",
-            "Images/av3.jpg"
+            "/Images/av1.png",
+            "/Images/av2.png",
+            "/Images/av3.jpg"
         ]
     },
     {
@@ -138,9 +138,9 @@ const products = [
             " Датчики температуры и влажности"
         ],
         images: [
-            "Images/pod1.jpg",
-            "Images/pod2.jpg",
-            "Images/pod3.jpg.png"
+            "/Images/pod1.jpg",
+            "/Images/pod2.jpg",
+            "/Images/pod3.jpg.png"
         ]
     },
     {
@@ -155,9 +155,9 @@ const products = [
             "Компактный дизайн с цифровым блоком"
         ],
         images: [
-            "Images/mk1.jpg",
-            "Images/mc2.jpg",
-            "Images/mc3.jpg"
+            "/Images/mk1.jpg",
+            "/Images/mc2.jpg",
+            "/Images/mc3.jpg"
         ]
     }
 ];
