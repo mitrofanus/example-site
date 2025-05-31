@@ -610,3 +610,23 @@ body {
         width: 98%;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+  .popup {
+    margin-top: 40px; /* отступ от верха, можно подстроить */
+  }
+
+  .popup-content button,
+  .popup-content .button {
+    font-size: 14px; /* уменьшенный текст */
+    padding: 6px 12px; /* меньше внутренний отступ */
+    margin: 6px 0; /* чуть меньше внешний отступ */
+  }
+
+  .popup img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* чтобы не прилипало к верху */
+  }
+}
